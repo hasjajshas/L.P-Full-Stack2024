@@ -1,0 +1,17 @@
+<script>
+
+//Verifique se um usuário inseriu corretamente seu email e senha para acessar um sistema.
+
+let email = "samanta@email.com";
+
+let senha = "uahahahaha";
+
+let emailDigitado = prompt("infome emial");
+
+let senhaDigitada = prompt("informe senha");
+
+if(emailDigitado == email && senhaDigitada == senha){
+	document.write("Acesso permitido")
+}else{
+	document.write("Acesso negation");
+}
