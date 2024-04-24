@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+		<script>
+			let aux = 0; //variavel que controla a repetição
+			let sim = 0; //variavel que conta a quantidade de vezes que daniele diz sim
+			while(aux <4){ //condição que repete enquanto a variavel aux for menor que quatro
+				resposta = prompt("Você foi ao role da daniele?"); //comando para ler a resposta
+				if(resposta == "sim"){ //caso a resposta seja sim
+					sim = sim + 1 //soma a quantidade de vezes que daniele disse sim
+				}
+				aux = aux +1 //encrementa a variavel que controla a repetição
+
+			}
+			if(sim >= 2){ //caso a variavel sim seja maior ou igual a dois
+				document.write("Ta filmando Santos?"); //resposta para caso for sim
+				document.write("Tô mesmo!"); //continuação
+			}else {
+				document.write("Vem me dar um abraço!"); //caso a reposta for não
+			}
+		</script>
+
+
+	</body>
+</html> 
